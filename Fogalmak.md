@@ -1,15 +1,15 @@
 ==Portszámok, OSI Modell==
-- 80-as port: http                         - a vpn nem a 80-as porton megy
-- 443-as port: https	              - titkosított http, web
-- 21-es port: fttp
-- 22-es port: ssh
-- 23-as port:
-- 25-ös port: smtp
-- 53-as port: dns
-- 110 pop3: email
-- 20, 21: ftp
-- 69-as port: tftp
-- 67/68-as port: dhcp
+- **80**-as port: http                         - a vpn nem a 80-as porton megy
+- **443**-as port: https	              - titkosított http, web
+- **21**-es port: fttp
+- **22**-es port: ssh
+- **23**-as port:
+- **25**-ös port: smtp
+- **53**-as port: dns
+- **110** pop3: email
+- **20, 21**: ftp
+- **69**-as port: tftp
+- **67/68**-as port: dhcp
 
 **ack:** acknowledgement
 **Host:** Házigazda, végponti eszköz
@@ -23,6 +23,9 @@
 **ARP** - Address Resolution Protocol
 **GLBP** - Gateway Load Balancing Protocol)
 **EUI-65** - Extended Unique Identifier (FFe)
+**OSPF** - Open Shortest Path First (pl. spare router: redundancy)
+**AMP** szűrés - Advanced Malware Protection (Cisco Software)
+
 
 ==#NGFW (Next Generation Firewall) key features==
 1. Alkalmazásérzékelés: Az NGFW képes azonosítani és ellenőrizni a hálózaton áthaladó konkrét alkalmazásokat vagy szolgáltatásokat, lehetővé téve az adminisztrátorok számára, hogy részletes szabályokat hozzanak létre az alkalmazás vagy szolgáltatás alapján.
