@@ -11,6 +11,18 @@
 - **69**-as port: tftp
 - **67/68**-as port: dhcp
 
+
+**OSI modell**
+7: alkalmazás réteg
+6: prezentáció réteg (pl. jpg, gif stb)
+5: viszonylati (session) réteg
+4: szállítása(2. (egfontosabb:) 2. port: forrás(véletlen) , 10 port ami megmondja hogy a túloldalon ki yúljon hozzá( 80)
+3: hálózatiréteg; forrás ip, cél ip
+2: adatkapcsolati réteg - kereteket küldözget
+1: bitek: hardver, physical
+
+
+
 **ack:** acknowledgement
 **Host:** Házigazda, végponti eszköz
 **Node:** switch vagy router
@@ -25,6 +37,10 @@
 **EUI-65** - Extended Unique Identifier (FFe)
 **OSPF** - Open Shortest Path First (pl. spare router: redundancy)
 **AMP** szűrés - Advanced Malware Protection (Cisco Software)
+**ACL** - Access Control List
+TDP - 
+
+**802.1X** -
 
 
 ==#NGFW (Next Generation Firewall) key features==
@@ -42,6 +58,13 @@
    
 7. Jelentések és analitika: Az NGFW gyakran részletes naplókat és jelentéseket nyújt, amelyek segítik a szervezeteket a hálózati tevékenység és a biztonsági események követésében és elemzésében.
 
+
+==#DHCP 4 adatod ad -Hozzájuk 4 konfig parancs==
+- IP cím
+- Mask
+- Default gateway
+- DNS szerver címe
+- Domain
 
 ==#WLC - Wireless Lan Controller==
 1. **Központi irányítás:** A WLC központi irányítást biztosít a vezeték nélküli hálózat összes hozzáfási pontja (access point) számára. Ez lehetővé teszi az adminisztrátorok számára, hogy egységesen konfigurálják és felügyeljék az összes hozzáfási pontot a hálózaton.
@@ -67,6 +90,8 @@ A WSA olyan eszköz vagy szoftver, amely a webes forgalom biztonságának és ir
 Ez egy olyan biztonsági megközelítés, amely célja a hálózatokhoz történő hozzáférés szabályozása és ellenőrzése. A NAC rendszerek lehetővé teszik az adminisztrátorok számára, hogy meghatározzák, mely eszközök és felhasználók kaphatnak hozzáférést a hálózathoz, és milyen feltételeknek kell megfelelniük ehhez. A NAC segít az illegális vagy nem megfelelő eszközök és felhasználók kiszűrésében, valamint a hálózati biztonság javításában.
 
 ==**AAA** - Authentication, Authorization, and Accounting==
+Az AAA szabályozza, hogy ki férhet hozzá a hálózathoz (hitelesítés), mit csinálhat belépés után (jogosultságkezelés), és nyomon követi a használat során végrehajtott műveleteket (naplózás).
+
 - **Authentication (Azonosítás)**: Azonosításkor azonosítják a felhasználót vagy az eszközt annak érdekében, hogy megállapítsák, hogy jogosult-e hozzáférni a hálózathoz.
 
 - **Authorization (Engedélyezés)**: Az engedélyezés során azonosított felhasználónak vagy eszköznek meghatározzák, hogy milyen erőforrásokhoz vagy szolgáltatásokhoz férhet hozzá a hálózaton.
