@@ -12,18 +12,18 @@
 - **67/68**-as port: dhcp
 
 
-**OSI modell
+==**OSI modell==
 7:** alkalmazás réteg
 **6:** prezentáció réteg (pl. jpg, gif stb)
 **5**: viszonylati (session) réteg
-**4:** szállítása(2. (egfontosabb:) 2. port: forrás(véletlen) , 10 port ami megmondja hogy a túloldalon ki yúljon hozzá( 80)
+**4:** szállítása(2. (egfontosabb:) 2. port: forrás(véletlen) , 10 port ami megmondja hogy a túloldalon ki nyúljon hozzá( 80)
 **3:** hálózatiréteg; forrás ip, cél ip
 **2:** adatkapcsolati réteg - kereteket küldözget
 **1**: bitek: hardver, physical
 
 
 
-	**ack:** acknowledgement
+**ack:** acknowledgement
 **Host:** Házigazda, végponti eszköz
 **Node:** switch vagy router
 
@@ -31,15 +31,19 @@
 **link local address default:** FE80::1: minden kliens innen megy ki
 **fe80::1** : első hálózat privát
 
-**GUA:** (global unicast address)
+**GUA** - global unicast address
+**NIC** - Network Interface Card
 **ARP** - Address Resolution Protocol
 **GLBP** - Gateway Load Balancing Protocol)
 **EUI-65** - Extended Unique Identifier (FFe)
 **OSPF** - Open Shortest Path First (pl. spare router: redundancy)
 **AMP** szűrés - Advanced Malware Protection (Cisco Software)
 **ACL** - Access Control List (Either allow or deny a computer from entering the environment)
-TDP - Tag Distrobution Protocol
+**TDP** - Tag Distrobution Protocol
+**BPDU (Guard)** - Bridge Protocol Data Unit
 
+
+**Ether channel** - több port összekapcsolása > 4 db 1gigabit port = 4 gigabit transfer
 **802.1X** - ("defines authentication controls for any user or device trying to access a LAN or WLAN")
 
 
